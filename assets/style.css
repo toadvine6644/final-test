@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    position: relative;
+    font-size: 24px;
+}
+.figure {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: row;
+}
+.figureItem {
+    width: calc(100% /3);
+    padding: 8px;
+}
+.figureItemGroup {
+    position: relative;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+.figureItemGroup img {
+    width: 80px;
+    height: 80px;
+}
+.figureItemGroup label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.figureBet {
+    margin: auto;
+    display: flex;
+    flex-wrap: row;
+    width: 300px;
+}
+.figureBet .figureItemGroup {
+    border: 1px solid black;
+}
+.start{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.startBet{
+    line-height: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+.reset{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resetBet{
+    line-height: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: aquamarine;
+}
